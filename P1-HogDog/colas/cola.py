@@ -38,6 +38,8 @@ class Cola:
                 if(aux.ingrediente == 'Costilla'):
                     tiempo = 6
                 print("HotDog de ", aux.ingrediente, '  ', tiempo, " min", "\n")
+                aux = aux.siguiente
+                
                 
             
                       
